@@ -45,7 +45,7 @@ router.post('/studentsLogin', async (req, res) => {
 })
 
 router.post('/studentsRegistration', async (req, res) => {
-    // console.log("jaffa")
+    console.log("jaffa")
     const student = new Student({
         firstName: req.body.firstName,
         lastName: req.body.lastName,
